@@ -41,7 +41,7 @@ const Card = ({ weatherData }) => {
     return (
         <div className='flex flex-col w-4/5 justify-center m-auto backdrop-blur-lg p-5 border rounded-2xl border-gray-50'>
             <div className='data text-white space-y-2'>
-                <div className='flex space-x-3 items-center justify-around'>
+                <div className='flex space-x-3 items-center'>
                     <i className={`wi ${icon} text-white text-4xl`} />
                     <div>
                         <h4 className='font-semibold'>{name} , {country}</h4>
